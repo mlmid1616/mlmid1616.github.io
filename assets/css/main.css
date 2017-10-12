@@ -9,6 +9,26 @@
 
 /* Personal */
 
+.app-academy img {
+  height: 40px;
+}
+
+.education-divider {
+  width: 2px;
+  height: 40px;
+  background-color: gray;
+  position: relative;
+  top: 15px;
+}
+
+.northwestern img {
+  height: 40px;
+border-bottom: none;
+text-decoration: solid;
+position: relative;
+top: 16px;
+}
+
 .quote {
   font-size: 12px;
   font-style: italic;

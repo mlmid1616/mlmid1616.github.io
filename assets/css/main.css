@@ -12,10 +12,10 @@
 .quote {
   font-size: 12px;
   font-style: italic;
-  color: white; 
+  color: white;
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 736) {
   .profile-pic {
     width: 80px;
 height: 128px;
@@ -133,12 +133,45 @@ left: 187px;*/
 		margin-bottom: 50px;
 	}
 
+  @media only screen and (max-width: 945px) {
+    .logos {
+      height: 70px;
+  		width: 70px;
+  		margin-bottom: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 785px) {
+    .logos {
+      height: 55px;
+  		width: 55px;
+  		margin-bottom: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 713px) {
+    .logos {
+      height: 40px;
+  		width: 40px;
+  		margin-bottom: 50px;
+    }
+  }
+
+
+
+
+  /*.rails-logo {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 50px;
+  }*/
+
 	.logo-box {
 		margin-left: 40px;
 	}
 
 	.bottom-row {
-		margin-right: 53px;
+
 	}
 
 	.row {
@@ -1042,7 +1075,7 @@ left: 187px;*/
 
 	}
 
-	@media screen and (max-width: 830px) {
+	@media screen and (max-width: 736) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -1518,7 +1551,7 @@ left: 187px;*/
 
 		}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
@@ -1573,7 +1606,7 @@ left: 187px;*/
 		line-height: 1.75em;
 	}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			h2 {
 				font-size: 1.1em;
@@ -1587,7 +1620,7 @@ left: 187px;*/
 		line-height: 1.75em;
 	}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			h3 {
 				font-size: 1em;
@@ -1720,7 +1753,7 @@ left: 187px;*/
 			top: 0;
 		}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			header.major {
 				margin: 0 0 2em 0;
@@ -2013,7 +2046,7 @@ left: 187px;*/
 				font-size: 1.5em;
 			}
 
-			@media screen and (max-width: 830px) {
+			@media screen and (max-width: 736) {
 
 				.icon.major {
 					font-size: 1em;
@@ -2137,7 +2170,7 @@ left: 187px;*/
 					padding-right: 3.5em;
 				}
 
-					@media screen and (max-width: 830px) {
+					@media screen and (max-width: 736) {
 
 						ul.icons.major li {
 							padding: 0 1em !important;
@@ -2212,7 +2245,7 @@ left: 187px;*/
 						padding: 0 0 0 0.75em;
 					}
 
-			@media screen and (max-width: 830px) {
+			@media screen and (max-width: 736) {
 
 				ul.actions li {
 					display: block;
@@ -2445,7 +2478,7 @@ left: 187px;*/
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			input[type="submit"],
 			input[type="reset"],
@@ -2477,6 +2510,10 @@ left: 187px;*/
 		padding: 0;
 		width: 100%;
 	}
+
+  .features img {
+    width: 100%;
+  }
 
 		.features li {
 			/*padding: 4em 4em 2em 6em;*/
@@ -2587,7 +2624,7 @@ left: 187px;*/
 
 			}
 
-			@media screen and (max-width: 830px) {
+			@media screen and (max-width: 736) {
 
 				.features li {
 					padding: 3em 0 1em 0 ;
@@ -2721,7 +2758,7 @@ left: 187px;*/
 
 		}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
@@ -2906,7 +2943,7 @@ left: 187px;*/
 					background-color: rgba(255, 255, 255, 0.2);
 				}
 
-			@media screen and (max-width: 830px) {
+			@media screen and (max-width: 736) {
 
 				.wrapper.style1 .features li {
 					border-top-color: rgba(0, 0, 0, 0.125);
@@ -3064,7 +3101,7 @@ left: 187px;*/
 					background-color: rgba(255, 255, 255, 0.2);
 				}
 
-			@media screen and (max-width: 830px) {
+			@media screen and (max-width: 736) {
 
 				.wrapper.style3 .features li {
 					border-top-color: rgba(0, 0, 0, 0.125);
@@ -3222,7 +3259,7 @@ left: 187px;*/
 					background-color: rgba(0, 0, 0, 0.1);
 				}
 
-			@media screen and (max-width: 830px) {
+			@media screen and (max-width: 736) {
 
 				.wrapper.style5 .features li {
 					border-top-color: #dfdfdf;
@@ -3238,7 +3275,7 @@ left: 187px;*/
 
 		}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			.wrapper {
 				padding: 3em 2em 1em 2em ;
@@ -3321,7 +3358,7 @@ left: 187px;*/
 					text-transform: uppercase;
 				}
 
-					@media screen and (max-width: 830px) {
+					@media screen and (max-width: 736) {
 
 						#menu ul > li > a {
 							line-height: 3em;
@@ -3344,7 +3381,7 @@ left: 187px;*/
 			width: 7em;
 		}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			#menu {
 				padding: 3em 1.5em;
@@ -3403,7 +3440,7 @@ left: 187px;*/
 				line-height: inherit;
 			}
 
-				@media screen and (max-width: 830px) {
+				@media screen and (max-width: 736) {
 
 					#header h1 a {
 						font-size: 0.8em;
@@ -3457,7 +3494,7 @@ left: 187px;*/
 								width: 2em;
 							}
 
-							@media screen and (max-width: 830px) {
+							@media screen and (max-width: 736) {
 
 								#header nav > ul > li > a.menuToggle {
 									padding: 0 1.5em;
@@ -3469,7 +3506,7 @@ left: 187px;*/
 
 							}
 
-						@media screen and (max-width: 830px) {
+						@media screen and (max-width: 736) {
 
 							#header nav > ul > li > a {
 								padding: 0 0 0 1.5em;
@@ -3639,7 +3676,7 @@ left: 187px;*/
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
@@ -3737,7 +3774,7 @@ left: 187px;*/
 
 		}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			#cta .inner .actions {
 				max-width: none;
@@ -3800,7 +3837,7 @@ left: 187px;*/
 
 		}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			#main > header {
 				padding: 5em 3em 3em 3em ;
@@ -3888,7 +3925,7 @@ left: 187px;*/
 
 		}
 
-		@media screen and (max-width: 830px) {
+		@media screen and (max-width: 736) {
 
 			#footer {
 				padding: 3em 2em 1em 2em ;

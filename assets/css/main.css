@@ -9,6 +9,32 @@
 
 /* Personal */
 
+
+@media only screen and (max-width: 830px) {
+  .profile-pic {
+    width: 80px;
+height: 128px;
+/* border-radius: 92px; */
+position: absolute;
+top: 152px;
+left: -7px;
+  }
+}
+
+
+/*width: 160px;
+height: 176px;
+border-radius: 92px;
+position: absolute;
+top: -240px;
+left: 187px;*/
+
+.group-credit {
+  font-weight: lighter;
+  font-size: 12px;
+  font-style: italic;
+}
+
 #profile {
     width: 160px;
     height: 180px;
@@ -19,10 +45,18 @@
 }
 
 .solo-label {
-	border-bottom: solid 2px white;
+	border-bottom: none;
 	display: inline-block;
-	padding-bottom: 1em;
+
+  padding-left: 5px;
 }
+
+#group-label {
+  border-bottom: none;
+  padding-left: 5px;
+}
+
+
 
 
 
@@ -82,6 +116,7 @@
 		margin-right: 3%;
 		margin-bottom: 20px;
 	}
+
 
 	a {
 
@@ -1002,7 +1037,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 830px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -1478,7 +1513,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
@@ -1533,7 +1568,7 @@
 		line-height: 1.75em;
 	}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			h2 {
 				font-size: 1.1em;
@@ -1547,7 +1582,7 @@
 		line-height: 1.75em;
 	}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			h3 {
 				font-size: 1em;
@@ -1680,7 +1715,7 @@
 			top: 0;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			header.major {
 				margin: 0 0 2em 0;
@@ -1926,7 +1961,24 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+      font-size: large;
+      color: cyan;
 		}
+
+    /*.icon:before .fa-user {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none !important;
+      font-size: large;
+      color: purple;
+    }*/
+
+    .fa-user:before {
+      color: #505492 !important;
+    }
 
 		.icon > .label {
 			display: none;
@@ -1956,7 +2008,7 @@
 				font-size: 1.5em;
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 830px) {
 
 				.icon.major {
 					font-size: 1em;
@@ -2080,7 +2132,7 @@
 					padding-right: 3.5em;
 				}
 
-					@media screen and (max-width: 736px) {
+					@media screen and (max-width: 830px) {
 
 						ul.icons.major li {
 							padding: 0 1em !important;
@@ -2155,7 +2207,7 @@
 						padding: 0 0 0 0.75em;
 					}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 830px) {
 
 				ul.actions li {
 					display: block;
@@ -2388,7 +2440,7 @@
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			input[type="submit"],
 			input[type="reset"],
@@ -2423,13 +2475,28 @@
 
 		.features li {
 			/*padding: 4em 4em 2em 6em;*/
-			padding: 4em 2em 6em;
-			padding-right: 6px; 
+			/*padding: 4em 2em 6em;*/
+      padding-top: 40px;
+      padding-bottom: 15px;
+      padding-left: 5px;
+			padding-right: 5px;
 			display: block;
 			position: relative;
-			text-align: left;
-			width: 50%;
+			text-align: center;
+			width: 70%;
+      border-bottom: 2px solid white;
+
 		}
+
+    /*.features .description li {
+      padding: 4em 4em 2em 6em;
+      padding: 4em 2em 6em;
+      padding-right: 6px;
+      display: block;
+      position: relative;
+      text-align: left;
+      width: 30%;
+    }*/
 
 
 
@@ -2515,7 +2582,7 @@
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 830px) {
 
 				.features li {
 					padding: 3em 0 1em 0 ;
@@ -2649,7 +2716,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
@@ -2834,7 +2901,7 @@
 					background-color: rgba(255, 255, 255, 0.2);
 				}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 830px) {
 
 				.wrapper.style1 .features li {
 					border-top-color: rgba(0, 0, 0, 0.125);
@@ -2992,7 +3059,7 @@
 					background-color: rgba(255, 255, 255, 0.2);
 				}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 830px) {
 
 				.wrapper.style3 .features li {
 					border-top-color: rgba(0, 0, 0, 0.125);
@@ -3150,7 +3217,7 @@
 					background-color: rgba(0, 0, 0, 0.1);
 				}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 830px) {
 
 				.wrapper.style5 .features li {
 					border-top-color: #dfdfdf;
@@ -3166,7 +3233,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			.wrapper {
 				padding: 3em 2em 1em 2em ;
@@ -3249,7 +3316,7 @@
 					text-transform: uppercase;
 				}
 
-					@media screen and (max-width: 736px) {
+					@media screen and (max-width: 830px) {
 
 						#menu ul > li > a {
 							line-height: 3em;
@@ -3272,7 +3339,7 @@
 			width: 7em;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			#menu {
 				padding: 3em 1.5em;
@@ -3331,7 +3398,7 @@
 				line-height: inherit;
 			}
 
-				@media screen and (max-width: 736px) {
+				@media screen and (max-width: 830px) {
 
 					#header h1 a {
 						font-size: 0.8em;
@@ -3385,7 +3452,7 @@
 								width: 2em;
 							}
 
-							@media screen and (max-width: 736px) {
+							@media screen and (max-width: 830px) {
 
 								#header nav > ul > li > a.menuToggle {
 									padding: 0 1.5em;
@@ -3397,7 +3464,7 @@
 
 							}
 
-						@media screen and (max-width: 736px) {
+						@media screen and (max-width: 830px) {
 
 							#header nav > ul > li > a {
 								padding: 0 0 0 1.5em;
@@ -3567,7 +3634,7 @@
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
@@ -3665,7 +3732,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			#cta .inner .actions {
 				max-width: none;
@@ -3728,7 +3795,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			#main > header {
 				padding: 5em 3em 3em 3em ;
@@ -3816,7 +3883,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 830px) {
 
 			#footer {
 				padding: 3em 2em 1em 2em ;

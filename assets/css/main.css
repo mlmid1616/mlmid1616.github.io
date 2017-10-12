@@ -9,8 +9,27 @@
 
 /* Personal */
 
+/*@media screen and (max-width: 980px){
+  .features gif-text {
+    padding: 3em 2em 1em 2em;
+    text-align: center;
+}*/
+
+/*.icons {
+  position: relative;
+  left: 45px;
+}*/
+
+
+
+.features .gif {
+  padding: 0px 0px 0px 0px
+}
+
 .app-academy img {
-  height: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
 }
 
 .education-divider {

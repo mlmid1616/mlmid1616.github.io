@@ -20,7 +20,21 @@
   left: 45px;
 }*/
 
+#resume {
+  text-decoration: none;
+  color: #00ffff !important;
+  font-size: 17px;
+  /*background: #515393;*/
+  /*color: white;*/
+  /*border-radius: 30px;*/
+  border: 1px solid #00ffff;
+  padding: 10px;
+}
 
+#resume:hover {
+    color: white !important;
+    border: 1px solid white;
+}
 
 .features .gif {
   padding: 0px 0px 0px 0px

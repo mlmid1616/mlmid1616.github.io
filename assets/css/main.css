@@ -20,6 +20,22 @@
   left: 45px;
 }*/
 
+@media only screen and (max-width: 375px;) {
+  .features li {
+    width: 100% !important;
+  }
+}
+
+.features li {
+  width: 80% !important;
+}
+
+.features li img {
+  border: 15px solid black;
+
+}
+
+
 #resume {
   text-decoration: none;
   color: #00ffff !important;

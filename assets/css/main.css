@@ -20,11 +20,27 @@
   left: 45px;
 }*/
 
-@media only screen and (max-width: 375px;) {
+/*@media only screen and (max-width: 375px;) {
   .features li {
     width: 100% !important;
   }
+}*/
+
+@media only screen and (min-width: 1280px) {
+  .profile-pic  {
+    left: 20px;
+  }
 }
+
+
+
+/*@media only screen and (min-width: 1280px) {
+  .inner p {
+    position: relative;
+    left: 50px;
+  }
+}*/
+
 
 .features li {
   width: 80% !important;

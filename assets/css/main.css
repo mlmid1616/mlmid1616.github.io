@@ -60,12 +60,20 @@
   /*border-radius: 30px;*/
   border: 1px solid #00ffff;
   padding: 10px;
-  
+
 }
 
 #resume:hover {
   color: white !important;
   border: 1px solid white;
+}
+
+.personal-intro {
+      height: 120px;
+      padding-top: 40px;
+      align-items: center;
+      background: #23b2a5;
+      text-align: center;
 }
 
 
